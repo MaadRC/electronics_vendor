@@ -7,5 +7,5 @@ def home(request):
 
 def product_list(request):
     products = Product.objects.all()
-    print(products)  # Check the console where you run your server to see what this outputs
+    print(products)  
     return render(request, 'webapp/product_list.html', {'products': products})
