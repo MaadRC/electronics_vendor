@@ -11,7 +11,6 @@ def main():
 
 def check_inventory(product_id):
     print(f"Checking inventory for Product ID: {product_id}")
-    # This would interact with the database in a real scenario.
 
 if __name__ == "__main__":
     main()
