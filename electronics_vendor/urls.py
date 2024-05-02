@@ -6,7 +6,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('webapp/', include('webapp.urls')),  # Assuming 'webapp' is your app's name
+    path('webapp/', include('webapp.urls')),  
 ]
 
 # Include Debug Toolbar URLs only if DEBUG is True
