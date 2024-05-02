@@ -54,11 +54,9 @@ Features
 - Customer Management: Register and manage customer accounts.
 - Sales Reporting: Access detailed reports for business analysis.
 
-Testing
 To run tests, use the following command:
 python manage.py test
 
-Contributing
 Contributions to this project are welcome! Please review the current issues and propose your changes via pull requests.
 
 License
